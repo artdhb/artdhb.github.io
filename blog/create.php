@@ -16,7 +16,7 @@ function creaPost(){
 	$nEntrada = $nEntrada.$nContenido."<br>";
 	$nEntrada = $nEntrada.$template[1];
 
-	//guardaPost($nEntrada);
+	guardaPost($nEntrada);
 }
 
 function guardaPost($newEntry){
