@@ -1,0 +1,107 @@
+body {
+	background: #112;
+}
+header {
+	display: block; 
+	text-decoration: underline;
+	font: 30px Verdana, Arial; 
+	text-align: center;
+	color: #fff; 
+	text-shadow: 0px 3px 5px #2a2a2a;
+}
+nav
+{
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -o-border-radius:10px;
+    border-radius:10px;
+
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#49F), to(#039));
+    background-image: -moz-linear-gradient(top left, #49F, #039);
+    background-image: -o-linear-gradient(top left, #49F, #039);
+    background-image: linear-gradient(top left, #49F, #039);
+
+    overflow:hidden;
+    padding:10px;
+    width:160px;
+    border:2px solid #FFF;
+}
+nav ul{
+    list-style:none; 
+    color: white;
+    margin:0 10px 0 5px;
+    padding:0;
+}
+nav ul li{
+    float:left;
+    font-family:Helvetica, sans-serif;
+    font-size:15px;
+    margin-right:10px;
+    text-align:center;
+    text-shadow: 0px 1px 0px #FFF;
+}
+nav ul li:hover{
+	-webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -o-border-radius:10px;
+    border-radius:10px;
+
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#7CF), to( #47B));
+    background-image: -moz-linear-gradient(top center, #7CF, #47B);
+    background-image: -o-linear-gradient(top, #7CF, #47B);
+    background-image: linear-gradient(top, #7CF, #47B);
+
+    border:2px solid #FFF;
+} 
+nav ul li a{
+    color:#FFF;
+    display:block;
+    padding:10px;
+    text-decoration:none;
+    -webkit-transition: 0.4s linear all;
+    -moz-transition: 0.4s linear all;
+    -o-transition: 0.4s linear all;
+    transition: 0.4s linear all;
+}
+footer{
+    font: 10px Arial, Times, Tahoma;
+    text-align: right;
+    color: #FFF;
+    padding: 20px;
+    text-shadow: 0px 1px 2px #111;
+}
+form{
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -o-border-radius:10px;
+    border-radius:10px;
+
+    text-align: left;
+    width: 400px;
+    margin: 0 auto;
+    background: #556;
+    padding: 20px;
+    font-size: 15px;
+    color: #EEE;
+    text-shadow: 0px 2px 5px #171717;
+}
+textarea{
+    width: 95%;
+    height: 200px;
+}
+section{
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -o-border-radius:10px;
+    border-radius:10px;
+
+    text-align: left;
+    width: 500px;
+    margin: 0 auto;
+    background: #556;
+    padding: 20px;
+    font-size: 15px;
+    color: #EEE;
+    text-shadow: 0px 2px 5px #171717;
+    border:2px solid #FFF;
+}
