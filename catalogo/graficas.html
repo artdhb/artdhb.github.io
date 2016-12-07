@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+		<title>Gráficas</title>
+	</head>
+
+	<body>
+
+		<nav>
+		  <ul class="w3-navbar w3-black">
+			<li><a href="javascript:void(0)">Inicio</a></li>
+			<li><a href="/catalogo/catalogo.html">Catálogo</a></li>
+			<li><a href="/catalogo/graficas.html">Gráficas</a></li>
+			<li><a href="../blog/">Blog</a></li>
+		  </ul>
+		</nav>
+
+		<section class="w3-container w3-center w3-content" style="max-width:600px">
+		  <h2 class="w3-wide">Gráficas</h2>
+		</section>	
+
+		<section class="w3-container w3-content w3-left">	
+			<button class="w3-btn w3-round-xxlarge" onclick="GraphicsPI()">Profesores/Instituto</button><br><br>
+			
+			<div class="dropdown">
+			 	<button class="w3-btn w3-round-xxlarge">Matricula/Carrera</button>
+		    	<ul id="matricula"></ul>
+	    	</div>
+
+			<br><br><button class="w3-btn w3-hover-red w3-round-xxlarge" onclick="RemoveGraphics()">Eliminar</button>		
+		</section>
+
+		<section class="w3-container w3-center w3-content" style="max-width:700px">
+		  <div id="pintar"></div>
+		</section>
+
+		<script src="js/Funcion.js"></script>
+		<script src="js/Chart.bundle.js"></script>
+    	<script src="js/utils.js"></script>
+	</body>
+</html>
